@@ -2,15 +2,42 @@
 
 1. Edite o arquivo `TV.java` e construa uma modelagem para representar uma TV utilizando as informações abaixo. 
 
-    Uma televisão possui as seguintes características:
-    - tamanho de tela (em polegadas);
-    - volume: de 1 a 10 iniciando em 5 (somente no construtor);
-    - marca;
-    - voltagem (220 e 110);
-    - canal.
+   
+class TV
+    -INT TAMANHO DA TELA (50 polegadas);
+    - INT VOLUME ( iniciando em 5  de 6 a 10);
+    - STRING marca (Samsung);
+    - INT voltagem (220);
+    - INT canal (2 A 555);
 
-    A televisão pode realizar as seguintes ações:
-    - ligar: ao ligar a televisão deve imprimir seu consumo. O consumo deve ser definido pela voltagem multiplicada pela quantidades de polegadas;
-    - desligar;
-    - aumentar e diminuir o volume;
-    - subir e descer canal.
+    void ligar() {
+     // lógica para tv ligar
+}
+
+ void desligar ()  {
+      // lógica par a tv desligar
+
+}  
+   INT aumentarVolume () {
+       If (volume<10) {
+        volume ++;
+  }        
+  return volume;
+}
+
+  INT diminuirVolume () {
+       If (volume<10) {
+        volume --;
+  }        
+  return volume;
+} 
+
+}   INT subircanal () {
+       If (canal <555) {
+        volume ++;
+
+  }     
+  }  
+
+
+     }
