@@ -11,55 +11,35 @@
 
     A televisão pode realizar as seguintes ações:
     - ligar: ao ligar a televisão deve imprimir seu consumo. O consumo deve ser definido pela voltagem multiplicada pela quantidades de polegadas;
-    - desligar;
+    - desligar;           
     - aumentar e diminuir o volume;
     - subir e descer canal.
   
 
-class Tv{
- int tamanho;
- int volume=5;
- string marca;
- int voltagem;
- int canal;
+   class TV {
+    int tamanho;
+    int volume = 5;
+    string marca;
+    int voltagem;
+    int canal;
 
- int AumentarVolume(){
-  if(volume<10){
-   volume++;
-  }
- return volume;
+  int ligarTV(){
+     if (220 x 50){
  }
+ 
+   int aumentarVolume(){
+       if (volume < 10){
+           volume++;
+     }
+       return volume;
+}
 
-  int DiminuirVolume(){
-   if(volume >1){
-    volume--;
-   }
-   return volume;
- }
- void ligar(){
-  ligada=true;
-  System.out.println("Tv ligada");
-  consumo=voltagem*tamanho;
-   System.out.println("consumo" + consumo);
-   }
-
- void desligar(){
-  ligada=false;
-  System.out.println:("Tv desligada");
-  }
-
- void SubirCanal(){
- canal++;
- System.out.println("canal subiu);
- }
-
- void DescerCanal(){
- if(canal>1){
-  canal--;
-  System.out.println("canal desceu");
-  } else{
-     System.out.println("esta no primeiro canal");
+   int diminuirVolume(){
+        if (volume > 5){ 
+            volume--;
     }
-  }
-  
-   
+      return volume;
+}
+
+
+}
